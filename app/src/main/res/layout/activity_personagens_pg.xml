@@ -47,13 +47,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.118">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="7dp"
-            android:layout_height="133dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/pingu" />
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="225dp"
