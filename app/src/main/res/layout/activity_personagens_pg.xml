@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".personagensPG">
 
 
@@ -12,7 +13,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#DD0619"
+        android:background=" #E60012"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -69,24 +70,35 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="520dp"
+        android:layout_width="413dp"
+        android:layout_height="527dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.99">
 
-        <TextView
-            android:id="@+id/textView10"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="O Club Penguin foi um dos maiores fenômenos da história da internet nos anos 2000, servindo como a principal porta de entrada de uma geração para o conceito de redes sociais e mundos virtuais. Lançado originalmente em 2005 pela New Horizon Interactive e posteriormente adquirido pela Disney em 2007 por uma transação milionária, o jogo ultrapassou a impressionante marca de 200 milhões de contas criadas até o seu encerramento em 2017."
-            android:textAlignment="center"
-            android:textColor="#D50D1E"
-            android:textStyle="bold" />
+            android:layout_height="138dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="323dp"
+                android:layout_height="139dp"
+                android:text="O Club Penguin foi um dos maiores fenômenos da história da internet nos anos 2000, servindo como a principal porta de entrada de uma geração para o conceito de redes sociais e mundos virtuais."
+                android:textAlignment="center"
+                android:textColor="#D50D1E"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.622"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:id="@+id/textView6"
@@ -137,19 +149,21 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.066"
-                app:srcCompat="@drawable/ocarina" />
+                app:srcCompat="@drawable/pengu" />
+            a
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="210dp"
-                android:layout_height="136dp"
+                android:layout_width="158dp"
+                android:layout_height="116dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.01"
+                app:layout_constraintHorizontal_bias="0.107"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.788"
-                app:srcCompat="@drawable/majora" />
+                app:layout_constraintVertical_bias="0.793"
+                app:srcCompat="@drawable/cardjit" />
+
 
             <TextView
                 android:id="@+id/textView7"
@@ -157,14 +171,14 @@
                 android:layout_height="71dp"
                 android:gravity="center"
                 android:padding="16dp"
-                android:text="Ocarina of Time"
+                android:text="Club Penguin"
                 android:textAlignment="center"
                 android:textColor="#D50D1E"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/quadrado"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.995"
+                app:layout_constraintHorizontal_bias="0.963"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
@@ -178,70 +192,69 @@
                 android:textColor="#FFFFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.934"
+                app:layout_constraintHorizontal_bias="0.871"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.347" />
+                app:layout_constraintVertical_bias="0.327" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/jitsu"
                 android:layout_width="167dp"
                 android:layout_height="41dp"
                 android:backgroundTint="#D50D1E"
-                android:text="COMPRAR"
+                android:text=" (encomendar)"
                 android:textColor="#FFFFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintHorizontal_bias="0.871"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.85" />
+                app:layout_constraintVertical_bias="0.848" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="R$ 169,99"
+                android:text="GRATUITO"
                 android:textColor="#D50D1E"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/quadrado"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.811"
+                app:layout_constraintHorizontal_bias="0.807"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.598" />
-
+                app:layout_constraintVertical_bias="0.477" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Majora's Mask"
+                android:text="Card-Jitsu"
                 android:textColor="#D50D1E"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.931"
+                app:layout_constraintHorizontal_bias="0.774"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.558" />
+                app:layout_constraintVertical_bias="0.545" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="R$ 179,99"
+                android:text="R$ 59,99"
                 android:textColor="#D50D1E"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.816"
+                app:layout_constraintHorizontal_bias="0.778"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.683" />
+                app:layout_constraintVertical_bias="0.684" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

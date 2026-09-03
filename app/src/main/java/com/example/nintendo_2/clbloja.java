@@ -11,13 +11,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class personagensPG extends AppCompatActivity {
+public class clbloja extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_personagens_pg);
+        setContentView(R.layout.activity_clbloja);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -29,17 +29,7 @@ public class personagensPG extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(personagensPG.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        Button cart = findViewById(R.id.jitsu);
-
-        cart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(personagensPG.this, clbloja.class);
+                Intent intent = new Intent(clbloja.this, MainActivity.class);
                 startActivity(intent);
             }
         });

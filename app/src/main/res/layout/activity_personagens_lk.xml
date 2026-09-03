@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".personagensLK">
 
 
@@ -12,7 +13,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="#DD0619"
+        android:background=" #E60012"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -79,14 +80,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.99">
 
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="A franquia The Legend of Zelda foi o alicerce que definiu os rumos da indústria de videogames, estabelecendo os padrões de como explorar mundos abertos em duas dimensões e, posteriormente, como ditar as regras de jogabilidade, câmera e narrativa em ambientes tridimensionais."
-            android:textAlignment="center"
-            android:textColor="#D50D1E"
-            android:textStyle="bold" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="419dp"
+            android:layout_height="122dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="258dp"
+                android:layout_height="wrap_content"
+                android:text="A franquia The Legend of Zelda foi o alicerce que definiu os rumos da indústria de videogames, estabelecendo os padrões de como explorar mundos abertos em duas dimensões e, posteriormente, como ditar as regras de jogabilidade, câmera e narrativa em ambientes tridimensionais."
+                android:textAlignment="center"
+                android:textColor="#D50D1E"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:id="@+id/textView6"
@@ -164,7 +175,7 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/quadrado"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.995"
+                app:layout_constraintHorizontal_bias="0.926"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
@@ -178,13 +189,14 @@
                 android:textColor="#FFFFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.934"
+                app:layout_constraintHorizontal_bias="0.871"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.347" />
+                app:layout_constraintVertical_bias="0.348" />
+
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/jitsu"
                 android:layout_width="167dp"
                 android:layout_height="41dp"
                 android:backgroundTint="#D50D1E"
@@ -192,10 +204,10 @@
                 android:textColor="#FFFFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintHorizontal_bias="0.871"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.85" />
+                app:layout_constraintVertical_bias="0.827" />
 
             <TextView
                 android:id="@+id/textView11"
@@ -207,11 +219,10 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/quadrado"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.811"
+                app:layout_constraintHorizontal_bias="0.779"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.598" />
-
+                app:layout_constraintVertical_bias="0.552" />
 
             <TextView
                 android:id="@+id/textView14"
@@ -223,10 +234,10 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.931"
+                app:layout_constraintHorizontal_bias="0.798"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.558" />
+                app:layout_constraintVertical_bias="0.566" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -238,10 +249,10 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.816"
+                app:layout_constraintHorizontal_bias="0.779"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.683" />
+                app:layout_constraintVertical_bias="0.674" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

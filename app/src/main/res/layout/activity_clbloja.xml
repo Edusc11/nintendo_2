@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".conkers">
+    tools:context=".clbloja">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Conker's Bad FurDay"
+            android:text="Card-Jitsu"
             android:textAlignment="center"
             android:textColor="#D50D1E"
             android:textSize="28sp"
@@ -62,7 +62,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="378dp">
+            android:layout_height="431dp">
 
             <View
                 android:id="@+id/quadrado3"
@@ -76,64 +76,66 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="398dp"
-                android:layout_height="250dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/quadrado3"
-                app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/conker" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="82dp"
-                android:layout_height="73dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.048"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.855"
-                app:srcCompat="@drawable/plataforma" />
-
-            <ImageView
-                android:id="@+id/imageView16"
-                android:layout_width="108dp"
-                android:layout_height="81dp"
-                android:layout_marginTop="260dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.235"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/maiorde" />
-
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="246dp"
-                android:layout_height="81dp"
-                android:text="Conker's Bad Fur Day é um jogo de plataforma 3D lançado para o Nintendo 64 em 2001, famoso por seu humor ácido, violência xplícita e conteúdo estritamente adulto."
+                android:layout_width="319dp"
+                android:layout_height="118dp"
+                android:text="Card-Jitsu é um dos elementos mais marcantes de Club Penguin, trazendo estratégia, competição e coleção para dentro do jogo. Através das cartas, os jogadores podiam enfrentar outros ninjas e dominar diferentes elementos, tornando o sistema uma parte importante da experiência e da história do universo Ninja."
                 android:textAlignment="center"
                 android:textColor="#D50D1E"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.97"
+                app:layout_constraintHorizontal_bias="0.505"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.878" />
+                app:layout_constraintVertical_bias="0.969" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="178dp"
+                android:layout_height="227dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.103"
+                app:srcCompat="@drawable/cardagua" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="175dp"
+                android:layout_height="203dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.543"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.148"
+                app:srcCompat="@drawable/cardsnow" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="126dp"
+                android:layout_height="180dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.981"
+                app:layout_constraintStart_toStartOf="@+id/quadrado3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.19"
+                app:srcCompat="@drawable/cdgofo" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:scaleX="2"
             android:scaleY="2"
-            android:text="R$ 75,00"
+            android:text="R$ 59,99 por BOX"
             android:textAlignment="center"
             android:textColor="#D50D1E"
             android:textStyle="bold" />
@@ -143,10 +145,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#D50D1E"
-            android:text="COMPRAR"
+            android:text="ENCOMENDAR"
             android:textColor="#FFFFFF" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
