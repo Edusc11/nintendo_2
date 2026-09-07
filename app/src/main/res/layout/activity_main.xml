@@ -95,7 +95,7 @@
             app:layout_constraintHorizontal_bias="0.363"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.116" />
+            app:layout_constraintVertical_bias="0.101" />
 
         <TextView
             android:id="@+id/textView2"
@@ -115,26 +115,26 @@
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="192dp"
-            android:layout_height="160dp"
+            android:layout_width="187dp"
+            android:layout_height="162dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.967"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.276"
+            app:layout_constraintVertical_bias="0.264"
             app:srcCompat="@drawable/conker" />
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="54dp"
-            android:layout_height="42dp"
+            android:layout_width="52dp"
+            android:layout_height="48dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.764"
+            app:layout_constraintHorizontal_bias="0.682"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.103"
+            app:layout_constraintVertical_bias="0.089"
             app:srcCompat="@drawable/n64" />
 
         <ImageView
@@ -209,7 +209,7 @@
             app:layout_constraintHorizontal_bias="0.934"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.276" />
+            app:layout_constraintVertical_bias="0.253" />
 
         <Button
             android:id="@+id/kong"
